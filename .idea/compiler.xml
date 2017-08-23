@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="movie" />
         <module name="user_project" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hiwanPlatform" target="1.5" />
+      <module name="movie" target="1.8" />
       <module name="user" target="1.8" />
       <module name="user_project" target="1.8" />
     </bytecodeTargetLevel>

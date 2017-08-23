@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hiwanPlatform.iml" filepath="$PROJECT_DIR$/hiwanPlatform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie/movie.iml" filepath="$PROJECT_DIR$/movie/movie.iml" />
       <module fileurl="file://$PROJECT_DIR$/user_project/user_project.iml" filepath="$PROJECT_DIR$/user_project/user_project.iml" />
     </modules>
   </component>
