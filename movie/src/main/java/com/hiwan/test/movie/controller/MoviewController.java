@@ -11,13 +11,15 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class MoviewController {
-    @Value("user.userServiceUrl")
-    private String  userServiceUrl;
+
     @Autowired
     private RestTemplate restTemplate;
+    @Value("${user.userServiceUrl}")
+    private String  userServiceUrl;
 
     @GetMapping("/user/{id}")
     public User findById(@PathVariable Long id){
+        System.out.println(this.userServiceUrl);
         return this.restTemplate.getForObject(this.userServiceUrl+id,User.class);
     }
 }
