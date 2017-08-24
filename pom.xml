@@ -12,6 +12,10 @@
     <modules>
         <module>user_project</module>
         <module>movie</module>
+        <module>eureka</module>
+        <module>user_eureka</module>
+        <module>movie_eureka</module>
     </modules>
+
 
 </project>
